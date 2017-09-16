@@ -1,0 +1,99 @@
+#battleChess{
+    text-align: left;
+    font-size: 25px;
+    color: #c0a16b;
+    text-align: center;
+}
+.whiteSqr{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+}
+.blackSqr{
+    background-color: #c0a16b;
+    width: 60px;
+    height: 90px;
+}
+.small-text{
+    font-size: 10px;
+}
+.Selct{
+    z-index: 1;
+    background-size: contain;
+    box-sizing: inherit;
+    align-self: auto;
+}
+
+.BlackSequre{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    height: 85px;
+    width: 45px;
+}
+.sqrSizes{
+    width: 83px !important;
+    height: 83px !important;
+    text-align: center;
+    float: left;
+}
+.maincontainer{
+    border-bottom: solid 12px #66512c;
+    border-left: solid 12px #66512c;
+    border-right: solid 12px #66512c;
+    border-top: solid 12px #66512c;
+}
+.BlackPownSequre{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    height: 85px;
+    width: 60px;
+}
+.WhiteSequre{
+    height: 85px;
+    width: 45px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+}
+.WhitePownSequre{
+    height: 85px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.color-selected-div{
+    box-shadow: inset 0px 0px 5px 2px #000000;
+}
+.path{
+    box-shadow: inset 0px 0px 10px 5px #adadad;
+}
+.cross{
+    box-shadow: inset 0px 0px 10px 2px yellow;
+}
+.inner{
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+div > div > div > div > div >div {
+    left: 0px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+#container{
+    -moz-transition: all 1s ease;-webkit-transition: all 1s ease; -o-transition: all 0.5s ease;transition: all 0.5s ease;
+    top:150px;
+    position: absolute;
+}
+.Cross-piece{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 200px;
+    color: goldenrod;
+    font-style: italic;
+    font-family: "1st Sortie";
+}
